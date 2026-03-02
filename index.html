@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ivan Barres | Tribal House</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Montserrat', sans-serif; background: #000; color: #fff; }
+
+section { padding: 80px 10%; }
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)),
+                url('foto-capa.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.hero h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #ff1a1a;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 10px;
+    border: 2px solid #ff1a1a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff1a1a;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.about img {
+    width: 350px;
+    border-radius: 8px;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-text h3 {
+    margin-bottom: 20px;
+    color: #ff1a1a;
+}
+
+.highlights {
+    background: #111;
+    text-align: center;
+}
+
+.highlight-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.highlight-box {
+    border: 1px solid #ff1a1a;
+    padding: 20px;
+}
+
+.music iframe {
+    margin-top: 30px;
+    width: 100%;
+    height: 166px;
+}
+
+.booking {
+    text-align: center;
+    background: #000;
+}
+
+.booking h3 {
+    color: #ff1a1a;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+    <h1>IVAN BARRES</h1>
+    <h2>TRIBAL HOUSE</h2>
+    <p>Clássicos do tribal com energia contínua de pista.</p>
+    <div class="buttons">
+        <a href="https://soundcloud.com/ivanbarres/3478ef2e-d59c-46a6-bf52-0f2966af3866" class="btn" target="_blank">OUVIR ÚLTIMO SET</a>
+        <a href="#booking" class="btn">BOOKING</a>
+    </div>
+</section>
+
+<section class="about">
+    <img src="foto-sobre.jpg" alt="Ivan Barres">
+    <div class="about-text">
+        <h3>SOBRE</h3>
+        <p>
+        Ivan Barres é DJ e produtor de Tribal House ativo desde 2017. Reconhecido por sets intensos e percussivos, mantém a pista em alta do início ao fim com leitura precisa e construção energética consistente.
+        <br><br>
+        Com trajetória entre Campinas, São Paulo e Belém, já se apresentou em casas como Livre Bar, Azurr, Private e Bigger. Atualmente é residente da festa Hunter.
+        <br><br>
+        Possui colaborações com Johnny Bess e Las Bibas From Vizcaya, com lançamentos pelos selos E-Pride e Queen House Music.
+        </p>
+    </div>
+</section>
+
+<section class="highlights">
+    <h3>DESTAQUES</h3>
+    <div class="highlight-grid">
+        <div class="highlight-box">Residente<br>Festa Hunter</div>
+        <div class="highlight-box">Passagens<br>Campinas • SP • Belém</div>
+        <div class="highlight-box">Lançamentos<br>E-Pride • Queen House</div>
+        <div class="highlight-box">+5.900 seguidores<br>SoundCloud</div>
+    </div>
+</section>
+
+<section class="music">
+    <h3>MÚSICA</h3>
+    <iframe scrolling="no" frameborder="no" allow="autoplay"
+    src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/ivanbarres/3478ef2e-d59c-46a6-bf52-0f2966af3866"></iframe>
+
+    <iframe scrolling="no" frameborder="no" allow="autoplay"
+    src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/ivanbarres/exclusive-pack-2-ivan-barres"></iframe>
+</section>
+
+<section class="booking" id="booking">
+    <h3>BOOKING & CONTRATAÇÃO</h3>
+    <p>Email: ivan.barres@icloud.com</p>
+    <p>WhatsApp: +55 19 98870-4995</p>
+    <p>Instagram: instagram.com/ivanbarres</p>
+    <br>
+    <a class="btn" href="https://wa.me/5519988704995?text=Olá%20Ivan,%20vi%20seu%20material%20e%20gostaria%20de%20falar%20sobre%20uma%20data." target="_blank">
+    ENTRAR EM CONTATO
+    </a>
+</section>
+
+<footer>
+© 2026 Ivan Barres — Tribal House
+</footer>
+
+</body>
+</html>
